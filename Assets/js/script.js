@@ -1,0 +1,1 @@
+$("#currentDay").text(moment().format("dddd, MMMM Do")); //display current day in header
