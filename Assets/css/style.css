@@ -31,7 +31,7 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
+  /* white-space: pre-wrap; I don't believe this is doing anything helpful*/
   height: 80px;
   border-top: 1px solid white;;
 }
@@ -40,6 +40,7 @@ textarea{
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 1.5%; /* Added this - I dont know how else to match the spacing in the mock-up*/
 }
 
 .past {
@@ -63,6 +64,7 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  vertical-align: middle;
 }
 
 .saveBtn i:hover {
